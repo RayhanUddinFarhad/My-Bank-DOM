@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class=" lg:mx-auto">
+
+    <div class="px-16  ">
+        <div class="">
+
+
+
+
+            <header>
+
+
+                <h1 class="text-6xl text-center py-10">Let's get <span class="text-indigo-500 text-center">some money</span>
+                </h1>
+
+
+
+
+
+            </header>
+
+
+            <main class="space-y-10">
+
+                <div class="lg:grid grid-cols-3 gap-10 ">
+
+
+                    <div class="space-y-4 bg-orange-400 text-white p-10 rounded-md my-5 ">
+
+
+                        <h3 class="text-3xl">Deposite Money</h3>
+                        <h5 class="text-5xl">$ <span id="dep-money"> 00</span></h5>
+
+
+
+                    </div>
+
+                    <div class="space-y-4 bg-red-500 text-white p-10 rounded-md my-5">
+
+
+                        <h3 class="text-3xl">Withdraw Money</h3>
+                        <h5 class="text-5xl">$ <span id="tv-withdraw">00</span></h5>
+
+
+
+                    </div>
+
+
+                    <div class="space-y-4 bg-green-500 text-white p-10 rounded-md my-5">
+
+
+                        <h3 class="text-3xl">Total Money</h3>
+                        <h5 class="text-5xl">$ <span id="tv-total-money">00</span></h5>
+
+
+
+                    </div>
+
+
+
+
+                </div>
+
+
+                <div class="lg:grid grid-cols-2 ">
+
+
+                    <div class="space-y-8 bg-indigo-700 lg:w-9/12 p-12 rounded-lg mb-5">
+
+                        <h1 class="text-3xl text-white">Deposite Amount</h1>
+                        <input id="input-deposite" style="background-color:  #EAF0F7;"
+                            class=" p-3 rounded-md block w-9/12" type="number" placeholder="$ Amount">
+                        <button id="btn-deposite"
+                            class="bg-blue-400 text-white p-4 rounded-lg hover:bg-black">Deposite</button>
+
+
+
+
+                    </div>
+
+
+                    <div class="space-y-8 bg-red-400 lg:w-9/12  p-12 rounded-lg mb-5">
+
+                        <h1 class="text-3xl text-white">Withdraw Amount</h1>
+                        <input id="input-withdraw" style="background-color:  #EAF0F7;"
+                            class=" p-3 rounded-md block w-9/12" type="number" placeholder="$ Amount">
+                        <button id="btn-withdraw"
+                            class="bg-indigo-700 text-white p-4 rounded-lg hover:bg-black">Withdraw</button>
+
+
+
+
+
+                    </div>
+
+
+
+
+
+
+                </div>
+
+
+
+                <div>
+
+
+
+
+                    <h1 class="text-5xl border-b-2 border-gray-400 p-5">Statement</h1>
+
+
+                    <div id="statement">
+
+
+
+
+
+                        <div class="flex justify-between py-10 border-b-2 border-gray-300">
+
+
+                            <h1 class="text-3xl text-black font-bold">Type</h1>
+
+                            <p class="text-3xl text-black font-bold">Amount</p>
+                        </div>
+                    </div>
+
+                    <div>
+
+
+
+
+
+
+                    </div>
+
+
+
+
+
+                </div>
+
+
+
+            </main>
+        </div>
+
+
+
+
+
+
+    </div>
+
+    <script src="js/utilitis.js"></script>
+
+
+    <script src="js/dashboard.js"></script>
+
+
+
+
+
+
+</body>
+
+</html>
